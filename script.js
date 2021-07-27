@@ -19,5 +19,5 @@ function openMenu(){
 }
 
 function closeMenu(){
-    menu.style.right="-200px"
+    menu.style.right="-170px"
 }

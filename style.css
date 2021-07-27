@@ -73,10 +73,6 @@ label{
     font-weight: 300;
 }
 
-.conteiner .menu {
-    z-index: 1;
-}
-
 .conteiner .menu ul li::after{
     content: '';
     display: block;
@@ -84,7 +80,7 @@ label{
     width: 0%;
     height: 2px;
     margin-top: auto;
-    transition: .3s;
+    transition:.3s;
 }
 
 .conteiner .menu ul li:hover::after{
@@ -94,7 +90,6 @@ label{
 nav #open , #close{
     display: none;
 }
-
 
 header .content{
     width: 80%;
@@ -108,7 +103,6 @@ header .content{
 .content img{
     width: 400px;
     animation: up-down 2.5s infinite ease-in-out;
-    animation-delay: 1.s;
 }
 
 @keyframes up-down{
@@ -138,15 +132,19 @@ header .content{
     font-weight: 300;
 }
 
-.content .btn{
+.content .left .btn{
     background: #0078FF;
     padding: 8px 20px;
     color: white;
     font-size: 17px;
     border-radius: 4px;
-    z-index: 2;
+    transition: .3s;
 }
 
+.left .btn:hover{
+    background: #0058bd;
+    transition: .3s;
+}
 .content .btn-2{
     background: #37383D;
     padding: 8px 30px;
@@ -154,14 +152,13 @@ header .content{
     font-size: 17px;
     border-radius: 4px;
     margin-left: 10px;
+    transition: .3s;
 }
 
-.svg{
-    position: absolute;
-    bottom: 0;
-    right: 50px;
-    width: 650px;
-    
+.left .btn-2:hover{
+    background: #0078FF;
+    color: white;
+    transition: .3s;
 }
 
 @media(max-width : 600px){
@@ -219,7 +216,7 @@ header .content{
         margin-top: 15px;
     }
 
-    .content .btn{
+    .content .left .btn{
         background: #0078FF;
         padding: 8px 20px;
         color: white;
@@ -255,7 +252,7 @@ header .content{
         position: fixed;
         top: 0;
         right: -170px;
-        transition: all.3s ease-in-out;
+        transition: all .3s ease;
     }
 
     .conteiner .menu ul li{
@@ -352,13 +349,12 @@ header .content{
     color: white;
     font-size: 17px;
     border-radius: 4px;
+    transition: .3s;
 }
 
-#about .svg-2{
-    position: absolute;
-    bottom: 0;
-    left: 100px;
-    width: 625px;
+.conteiner .btn:hover{
+    background: #0058bd;
+    transition: .3s;
 }
 
 @media(max-width : 600px){
@@ -382,7 +378,7 @@ header .content{
     }
 
     #about .conteiner .left{
-        margin-top: 70px;
+        margin-top: 60px;
     }
 
     #about .conteiner h1{
