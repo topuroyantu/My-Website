@@ -8,9 +8,6 @@ window.addEventListener("scroll", function (){
 })
 
 
-
-
-
 // Responsive Menu
 
 let openBTN = document.getElementById("open")
@@ -22,5 +19,5 @@ function openMenu(){
 }
 
 function closeMenu(){
-    menu.style.right="-160px"
+    menu.style.right="-200px"
 }
