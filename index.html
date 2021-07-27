@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topu Roy Antu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <!----- Home ----->
+
+    <section id="home">
+        <nav>
+            <button id="open" onclick="openMenu()">☰</button>
+            <div class="conteiner">
+                <div class="logo" data-aos="fade-down">
+                    <img src="Image/Logo.svg">
+                    <label>TOPU ROY</label></div>
+                
+                <div class="menu" data-aos="fade-down">
+                    <button id="close" onclick="closeMenu()">&times</button>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skill">Skill</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <div class="content">
+                <div data-aos="fade-right" class="left">
+                    <h1><span>Hello I am</span><br>Topu Roy Antu</h1>
+                    <p>I am a Freelance Graphic Designer. I have more than 2 year<br>of experience in design industry.</p>
+                    <a href="#" class="btn">PORTFOLIO</a>
+                    <a href="#" class="btn-2">HIRE ME</a>
+                </div>
+    
+                <div class="right" data-aos="fade-left">
+                    <img src="Image/Pic.svg" class="pic">
+                </div>
+            </div>
+
+            <img data-aos="fade-in" src="Image/Icon.svg" class="svg">
+        </header>
+    </section>
+
+    <!----- About ----->
+
+    <section id="about">
+        <div class="conteiner">
+            <div class="left" data-aos="fade-right">
+                <img src="Image/Pic-2.svg">
+            </div>
+
+            <div class="right" data-aos="fade-left">
+                <h1>About Me</h1>
+                <p>Hello There, I am Topu Roy Antu. I am a Freelance
+                Graphic & UI/UX <br> designer. I have more than2 year
+                of experience in design industry.<br><br>I can never seem to stop creating anything. I Love
+                my work.</p>
+                <a href="#" class="btn">DOWNLOAD CV</a>
+            </div>
+        </div>
+        <img data-aos="fade-in" src="Image/Icon-2.svg" class="svg-2">
+    </section>
+
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 150,
+        duration: 900,
+      });
+    </script>
+</body>
+</html>
