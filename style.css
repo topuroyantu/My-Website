@@ -349,9 +349,6 @@ header .content{
 }
 
 @media(max-width : 600px){
-    #about .svg-2{
-        display: none;
-    }
 
     #about .conteiner{
         width: 80%;
