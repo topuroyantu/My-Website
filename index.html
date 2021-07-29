@@ -155,7 +155,7 @@
                 <h2>Have a Project On Your Mind?</h2>
                 <p>I am here to help you on your project . Contact Me or Hire Me .</p> <br>
                 <a href="#" class="hire">HIRE ME</a>
-                <a href="#">CONTACT</a>
+                <a href="#contact">CONTACT</a>
             </div>
             <div class="right">
                 <img src="Message.svg" data-aos="fade-left">
@@ -198,6 +198,43 @@
         </div>
     </section>
 
+    <!----- Contact ----->
+
+    <section id="contact">
+        <div class="heading" data-aos="fade-in">
+            <h1>Contact Me</h1>
+            <!-- <p>Get In Touch With Me</p> -->
+        </div>
+
+        <form action="" method="POST" onsubmit="return Validation()">
+
+            <div class="inputs" data-aos="fade-up">
+                <div class="field">
+                    <i class="fas fa-user"></i>
+                    <input id="Name" type="text" placeholder="Your Name">
+                    <p id="user"></p>
+                </div>
+
+                <div class="field">
+                    <i class="fas fa-envelope"></i>
+                    <input id="Email" type="email" placeholder="Your Email">
+                    <p id="email"></p>
+                </div>
+
+                <div class="field">
+                    <i class="fas fa-comment"></i>
+                    <textarea id="Message" placeholder="Message" ></textarea>
+                    <p id="message"></p>
+                </div>
+
+                <div class="submit">
+                    <button type="submit">Send Message</button>
+                </div>
+            </div>
+
+            </div>
+        </form>
+    </section>
 
     <script src="script.js"></script>
 
