@@ -597,17 +597,21 @@ header .content{
 
 .Project{
     width: 100%;
-    height: 60vh;
-    background-color:#0078FF;
+    height: 65vh;
+    background-color:#2C2D33;
+    margin: auto;
 }
 
 .Project .conteiner{
-    width: 80%;
+    width: 79%;
+    height: 50vh;
     margin: auto;
     display: flex;
     align-self: center;
     justify-content: space-between;
-    padding: 5% 0;
+    padding: 5% 5%;
+    background-color:#0078FF;
+    border-radius: 10px;
 }
 
 .Project .conteiner .left h2{
