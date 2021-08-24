@@ -614,6 +614,10 @@ header .content{
     border-radius: 10px;
 }
 
+.Project .conteiner .left{
+    margin-bottom: 25px;
+}
+
 .Project .conteiner .left h2{
     color: white;
     font-size: 40px;
