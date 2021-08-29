@@ -1062,6 +1062,7 @@ textarea {
     color: #0078FF;
 }
 
+/*----- Pre-Loader -----*/
 
 #loader{
     width: 100%;
@@ -1077,12 +1078,13 @@ textarea {
 
 .one{
     background:#2C2D33;
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     animation: spin 2s infinite linear;
-    border: 10px solid #26272c;
-    border-top: 10px solid #0078FF;
+    border: 15px solid #26272c;
+    border-top: 15px solid #0078FF;
     border-radius: 50%;
+    
 }
 
 @keyframes spin{
@@ -1091,4 +1093,17 @@ textarea {
         transform: rotate(360deg);
 }
 
+}
+
+@media(max-width:600px){
+    .one{
+        background:#2C2D33;
+        width: 100px;
+        height: 100px;
+        animation: spin 2s infinite linear;
+        border: 12px solid #26272c;
+        border-top: 12px solid #0078FF;
+        border-radius: 50%;
+        
+    }
 }
