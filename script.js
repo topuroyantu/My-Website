@@ -80,3 +80,11 @@ let redirect = "#home"
 window.onload = function(){
     window.location.replace(redirect)
 }
+
+// Website Pre-Loader
+
+let loader = document.getElementById("loader")
+
+window.addEventListener("load", function(){
+    loader.style.display="none"
+})
