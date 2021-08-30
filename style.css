@@ -509,7 +509,7 @@ header .content{
 }
 
 .my-skills .Skill-Name .bars .js{
-    width: 40%;
+    width: 50%;
     height: 7px;
     background-color: #0078FF;
 }
