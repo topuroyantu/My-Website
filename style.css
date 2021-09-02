@@ -593,123 +593,144 @@ header .content{
     }
 }
 
-/*----- Project -----*/
+/*----- Works -----*/
 
-.Project{
+#works{
     width: 100%;
-    height: 65vh;
-    background-color:#2C2D33;
+    height: 100vh;
+    background: #2C2D33;
+    padding: 5% 0;
+}
+
+#works .content{
+    width: 80%;
     margin: auto;
 }
 
-.Project .conteiner{
-    width: 79%;
-    height: 50vh;
-    margin: auto;
-    display: flex;
-    align-self: center;
-    justify-content: space-between;
-    padding: 5% 5%;
-    background-color:#0078FF;
-    border-radius: 10px;
+#works .heading {
+    text-align: center;
+    margin: 20px 0;
 }
-
-.Project .conteiner .left{
-    margin-bottom: 25px;
-}
-
-.Project .conteiner .left h2{
-    color: white;
+#works .heading h1{
     font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-
-.Project .conteiner p{
     color: white;
-    line-height: 30px;
-    margin-bottom: 20px;
+    font-weight: 500;
 }
 
-.Project .conteiner .left a{
+#works .heading p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    
+}
+
+#works .designs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.design{
+    transition: .3s;
+}
+
+#works .designs .design .text{
+    transform: translate(65px,-220px);
+}
+
+#works .design:hover{
+    transform: translateY(-20px);
+    transition: .3s;
+}
+
+#works .designs .design .text a{
     background:none;
     border: 2px solid white;
     border-radius: 4px;
     color: white;
-    padding: 10px 20px;
+    padding: 8px 18px;
     margin-top: 15px;
     transition: .2s;
+    font-size: 12px;
 }
 
-.Project .conteiner .left a:hover{
+#works .designs .design .text a:hover{
     background-color: white;
     color: #0078FF;
     transition: .2s;
 }
 
-.Project .conteiner .left .hire{
-    background:none;
-    border: 2px solid white;
-    border-radius: 4px;
+#works .designs .design .text h3{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.1;
     color: white;
-    padding: 10px 25px;
-    margin-right: 10px;
+    margin-bottom: 25px;
 }
 
-.Project .conteiner .right{
-    margin-top: 10px;
+#works .designs .design img{
+    width: 350px;
+    animation: none; 
 }
-
-.Project .conteiner .right img{
-    width: 245px;
-}
-
 
 @media(max-width : 600px){
-
-    .Project{
+    #works{
         width: 100%;
-        height: 90vh;
-        background-color:#0078FF;
+        height: 165vh;
+        background: #2C2D33;
+        padding: 5% 0;
     }
-    .Project .conteiner{
-        width: 80%;
-        margin: auto;
+
+    #works .heading h1{
+        font-size: 30px;
+        color: white;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    #works .heading p{
+        color: #9B9B9B;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #works .designs{
         display: flex;
-        align-self: center;
-        justify-content: space-between;
-        padding: 10% 0;
+        align-items: center;
+        justify-content: space-around;
         flex-direction: column;
     }
 
-    .Project .conteiner .left h2{
-        color: white;
-        font-size: 25px;
+    #works .designs .design img{
+        width: 250px;
+        animation: none;
+        margin: -30px 0;
+    }
+
+    #works .designs .design .text{
+        transform: translate(30px,-155px);
+    }
+
+    #works .designs .design .text h3{
+        font-size: 30px;
         font-weight: 500;
+        line-height: 1.2;
+        color: white;
         margin-bottom: 25px;
     }
 
-    .Project .conteiner p{
-        color: white;
-        line-height: 25px;
-        font-size: 12px;
-    }
-
-    .Project .left a{
+    #works .designs .design .text a{
         background:none;
-        border-radius: 2px;
+        border: 2px solid white;
+        border-radius: 4px;
         color: white;
-        padding: 8px 20px;
+        padding: 8px 15px;
         margin-top: 15px;
         transition: .2s;
-        font-size: 10px;
+        font-size: 12px;
     }
-    .Project .conteiner .right img{
-        width: 180px;
-        margin-top: 60px;
-        position: absolute;
-        left: 40px;
-    }
+    
 }
 
 /*----- Service -----*/
@@ -841,8 +862,6 @@ header .content{
     
     
 }
-
-/*----- Testimonials -----*/
 
 
 /*----- Contact -----*/
@@ -1034,6 +1053,125 @@ textarea {
         margin-top: 10px;
         cursor: pointer; 
         transition: .2s;
+    }
+}
+
+/*----- Project -----*/
+
+.Project{
+    width: 100%;
+    height: 60vh;
+    background-color:#26272c;
+    margin: auto;
+}
+
+.Project .conteiner{
+    width: 79%;
+    height: 49vh;
+    margin: auto;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 5% 5%;
+    background-color:#0078FF;
+    border-radius: 15px;
+}
+
+.Project .conteiner .left{
+    margin-bottom: 25px;
+}
+
+.Project .conteiner .left h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.Project .conteiner p{
+    color: white;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.Project .conteiner .left a{
+    background:none;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    transition: .2s;
+}
+
+.Project .conteiner .left a:hover{
+    background-color: white;
+    color: #0078FF;
+    transition: .2s;
+}
+
+.Project .conteiner .left .hire{
+    background:none;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 25px;
+    margin-right: 10px;
+}
+
+.Project .conteiner .right{
+    margin-top: 10px;
+}
+
+.Project .conteiner .right img{
+    width: 245px;
+}
+
+
+@media(max-width : 600px){
+
+    .Project{
+        width: 100%;
+        height: 90vh;
+        background-color:#0078FF;
+    }
+    .Project .conteiner{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+        padding: 10% 0;
+        flex-direction: column;
+    }
+
+    .Project .conteiner .left h2{
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+
+    .Project .conteiner p{
+        color: white;
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+    .Project .left a{
+        background:none;
+        border-radius: 2px;
+        color: white;
+        padding: 8px 20px;
+        margin-top: 15px;
+        transition: .2s;
+        font-size: 10px;
+    }
+    .Project .conteiner .right img{
+        width: 180px;
+        margin-top: 60px;
+        position: absolute;
+        left: 40px;
     }
 }
 
