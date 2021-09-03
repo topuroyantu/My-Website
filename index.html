@@ -252,32 +252,32 @@
             <!-- <p>Get In Touch With Me</p> -->
         </div>
 
-        <form action="" method="POST" onsubmit="return Validation()">
+        <form action="https://formcarry.com/s/CA9u5zX94L4" method="POST" onsubmit="return Validation()">
 
             <div class="inputs" data-aos="fade-up">
                 <div class="field">
                     <i class="fas fa-user"></i>
-                    <input id="Name" type="text" placeholder="Your Name">
+                    <input type="text" name="firstName" placeholder="Your Name" required>
                     <p id="user"></p>
                 </div>
 
                 <div class="field">
                     <i class="fas fa-envelope"></i>
-                    <input id="Email" type="email" placeholder="Your Email">
+                    <input type="email" name="email" placeholder="Your Email" required>
                     <p id="email"></p>
                 </div>
 
                 <div class="field">
                     <i class="fas fa-comment"></i>
-                    <textarea id="Message" placeholder="Message" ></textarea>
+                    <textarea id="Message" name="anotherInput" placeholder="Message" required ></textarea>
                     <p id="message"></p>
                 </div>
 
                 <div class="submit">
                     <button type="submit">Send Message</button>
                 </div>
+                <input type="hidden" name="_next" value="#home">
             </div>
-
             </div>
         </form>
     </section>
