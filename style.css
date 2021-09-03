@@ -234,7 +234,7 @@ header .content{
     .content .btn-2{
         background: #37383D;
         padding: 8px 30px;
-        color: #0078FF;
+        color: white;
         font-size: 10px;
         border-radius: 2px;
         margin-left: 10px;
@@ -705,7 +705,7 @@ header .content{
     #works .designs .design img{
         width: 250px;
         animation: none;
-        margin: -30px 0;
+        margin: -40px 0;
     }
 
     #works .designs .design .text{
