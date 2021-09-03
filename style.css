@@ -705,7 +705,7 @@ header .content{
     #works .designs .design img{
         width: 250px;
         animation: none;
-        margin: -40px 0;
+        margin: -45px 0;
     }
 
     #works .designs .design .text{
@@ -967,7 +967,7 @@ textarea {
 
     #contact{
         width: 100%;
-        height: 100vh;
+        height: 110vh;
         background: #2C2D33;
         padding: 15%;
         position: relative;
