@@ -1214,6 +1214,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 2s;
 }
 
 
