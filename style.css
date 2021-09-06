@@ -95,7 +95,7 @@ header .content{
 }
 
 .content img{
-    width: 400px;
+    width: 420px;
     animation: up-down 2.5s infinite ease-in-out;
 }
 
@@ -161,7 +161,7 @@ header .content{
     background: #0078FF;
     position: absolute;
     left: 0;
-    bottom: 100px;
+    bottom: 85px;
 }
 
 @media(max-width : 600px){
@@ -190,14 +190,14 @@ header .content{
     }
 
     .content span{
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 400;
         color: #0078FF;
     }
 
     .content h1{
         color: white;
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 500;
         line-height: 35px;
         margin-bottom: 20px;
@@ -320,7 +320,7 @@ header .content{
 }
 
 #about .conteiner img{
-    width: 400px;
+    width: 420px;
     animation: up-down 2.5s infinite ease-in-out;
     animation-delay: 1.s;
 }
@@ -470,7 +470,7 @@ header .content{
 }
 
 .my-skills .Skill-Name .head h3{
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 500;
     color: white;
 }
@@ -579,7 +579,7 @@ header .content{
     }
 
     .my-skills .Skill-Name .head h3{
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 500;
         color: white;
     }
@@ -635,7 +635,7 @@ header .content{
 }
 
 #works .designs .design .text{
-    transform: translate(65px,-220px);
+    transform: translate(65px,-240px);
 }
 
 #works .design:hover{
@@ -663,7 +663,7 @@ header .content{
 #works .designs .design .text h3{
     font-size: 35px;
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 1.25;
     color: white;
     margin-bottom: 25px;
 }
