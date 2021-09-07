@@ -247,7 +247,7 @@ header .content{
 
     .logo label{
         margin-left: 40px;
-        font-size: 20px;
+        font-size: 22px;
         position: absolute;
         top: 25px;
     }
@@ -709,7 +709,7 @@ header .content{
     }
 
     #works .designs .design .text{
-        transform: translate(30px,-155px);
+        transform: translate(30px,-140px);
     }
 
     #works .designs .design .text h3{
@@ -1249,3 +1249,25 @@ textarea {
         
     }
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #0078ff #26272c;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #26272c;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #0078ff;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
