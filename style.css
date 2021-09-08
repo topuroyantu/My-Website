@@ -121,9 +121,11 @@ header .content{
 
 .content p{
     color: #9B9B9B;
-    line-height: 30px;
+    line-height: 32px;
     margin-bottom: 40px;
     font-weight: 300;
+    width: 65%;
+    text-align: justify;
 }
 
 .content .left .btn{
@@ -206,8 +208,9 @@ header .content{
     .content p{
         color: #9B9B9B;
         line-height: 20px;
-        font-size: 10px;
+        font-size: 11px;
         margin-bottom: 20px;
+        width: 100%;
     }
 
     .content img{
@@ -311,9 +314,9 @@ header .content{
 }
 
 #about .conteiner{
-    width: 80%;
+    width: 79%;
     margin: auto;
-    padding: 12% 0;
+    padding: 11% 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -341,10 +344,15 @@ header .content{
 
 #about .conteiner p{
     color: #9B9B9B;
-    line-height: 30px;
-    margin-bottom: 45px;
+    line-height: 32px;
+    margin-bottom: 50px;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 16.5px;
+    text-align: justify;
+}
+
+.conteiner .right{
+    width: 45%;
 }
 
 .conteiner .btn{
@@ -380,6 +388,9 @@ header .content{
         justify-content: space-between;
         flex-direction: column-reverse;
     }
+    .conteiner .right{
+        width: 95%;
+    }
 
     #about .conteiner img{
         width: 250px;
@@ -401,7 +412,7 @@ header .content{
     #about .conteiner p{
         color: #9B9B9B;
         line-height: 22px;
-        font-size:12px;
+        font-size:11px;
         margin-bottom: 20px;
     }
 
