@@ -388,7 +388,7 @@ header .content{
         justify-content: space-between;
         flex-direction: column-reverse;
     }
-    .conteiner .right{
+    #about .conteiner .right{
         width: 95%;
     }
 
