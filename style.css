@@ -351,7 +351,7 @@ header .content{
     text-align: justify;
 }
 
-.conteiner .right{
+#about .conteiner .right{
     width: 45%;
 }
 
