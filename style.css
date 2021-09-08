@@ -121,7 +121,7 @@ header .content{
 
 .content p{
     color: #9B9B9B;
-    line-height: 32px;
+    line-height: 35px;
     margin-bottom: 40px;
     font-weight: 300;
     width: 65%;
@@ -207,7 +207,7 @@ header .content{
 
     .content p{
         color: #9B9B9B;
-        line-height: 20px;
+        line-height: 25px;
         font-size: 11px;
         margin-bottom: 20px;
         width: 100%;
@@ -344,7 +344,7 @@ header .content{
 
 #about .conteiner p{
     color: #9B9B9B;
-    line-height: 32px;
+    line-height: 35px;
     margin-bottom: 50px;
     font-weight: 300;
     font-size: 16.5px;
