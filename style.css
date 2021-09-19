@@ -182,7 +182,7 @@ header .content{
         overflow: hidden;
     }
     header .content{
-        width: 80%;
+        height: 90%;
         margin: auto;
         padding: 20% 0;
         display: flex;
@@ -218,12 +218,9 @@ header .content{
         animation: none;
     }
 
-    .content .right{
-        margin-top: 70px;
-    }
-
     .content .left{
         margin-top: 15px;
+        margin-bottom: 60px;
     }
 
     .content .left .btn{
@@ -231,15 +228,15 @@ header .content{
         padding: 8px 20px;
         color: white;
         font-size: 10px;
-        border-radius: 4px;
+        border-radius: 3px;
     }
     
     .content .btn-2{
         background: #37383D;
-        padding: 8px 30px;
+        padding: 9px 30px;
         color: white;
         font-size: 10px;
-        border-radius: 2px;
+        border-radius: 3px;
         margin-left: 10px;
     }
 
