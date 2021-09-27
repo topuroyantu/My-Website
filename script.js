@@ -22,6 +22,45 @@ function closeMenu(){
     menu.style.right="-170px"
 }
 
+// Image Pop-Up
+
+let images = document.getElementById("view")
+let popup = document.querySelector(".view")
+let close = document.querySelector(".close")
+
+function view(){
+    popup.style.display = "block"
+    images.src = "agency_website_design.png"
+}
+
+function viewTwo(){
+    popup.style.display = "block"
+    images.src = "Diamond-Teeth-Logo.jpg"
+}
+
+function viewThree(){
+    popup.style.display = "block"
+    images.src = "landing_page.jpg"
+}
+
+function viewfour(){
+    popup.style.display = "block"
+    images.src = "w-Logo.jpg"
+}
+
+function viewfive(){
+    popup.style.display = "block"
+    images.src = "artboard___1.png"
+}
+
+function viewsix(){
+    popup.style.display = "block"
+    images.src = "CD-Logo.png"
+}
+
+function closeView(){
+    popup.style.display = "none"
+}
 
 
 // Form Validation

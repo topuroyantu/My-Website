@@ -605,19 +605,52 @@ header .content{
 
 #works{
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     background: #2C2D33;
     padding: 5% 0;
 }
 
-#works .content{
+#works .view{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150vh;
+    background:rgba(0, 0, 0, 0.85);
+    z-index: 1000;
+    display: none;
+}
+
+#works .view img{
+    width: 750px;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+#works .view button{
+    position: absolute;
+    top: 8.5%;
+    right: 10%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 50px;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#works .contenteiner{
     width: 80%;
     margin: auto;
+    text-align: center;
 }
 
 #works .heading {
     text-align: center;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 #works .heading h1{
     font-size: 40px;
@@ -632,59 +665,40 @@ header .content{
     
 }
 
-#works .designs{
+#works .contenteiner .designs .row{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
+    margin-bottom: 50px;
 }
 
-.design{
+#works .contenteiner .designs img{
+    width: 370px;
+    border-radius: 5px;
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
     transition: .3s;
 }
 
-#works .designs .design .text{
-    transform: translate(65px,-240px);
+#works .contenteiner .designs img:hover{
+    transform:scale(0.9) rotate(2deg);
 }
 
-#works .design:hover{
-    transform: translateY(-20px);
-    transition: .3s;
-}
-
-#works .designs .design .text a{
-    background:none;
-    border: 2px solid white;
-    border-radius: 4px;
+#works .contenteiner a{
     color: white;
-    padding: 8px 18px;
-    margin-top: 15px;
-    transition: .2s;
-    font-size: 12px;
-}
-
-#works .designs .design .text a:hover{
-    background-color: white;
-    color: #0078FF;
+    font-size: 20px;
+    font-weight: 300;
     transition: .2s;
 }
 
-#works .designs .design .text h3{
-    font-size: 35px;
-    font-weight: 500;
-    line-height: 1.25;
-    color: white;
-    margin-bottom: 25px;
-}
-
-#works .designs .design img{
-    width: 350px;
-    animation: none; 
+#works .contenteiner a:hover{
+    color: #0078ff;
 }
 
 @media(max-width : 600px){
     #works{
         width: 100%;
-        height: 165vh;
+        height: 1850px;
         background: #2C2D33;
         padding: 5% 0;
     }
@@ -703,41 +717,53 @@ header .content{
         text-align: center;
     }
 
-    #works .designs{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-    }
+#works .contenteiner .designs .row{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
 
-    #works .designs .design img{
-        width: 250px;
-        animation: none;
-        margin: -35px 0;
-    }
+#works .contenteiner .designs img{
+    width: 280px;
+    border-radius: 5px;
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 50px;
+}
 
-    #works .designs .design .text{
-        transform: translate(30px,-150px);
-    }
+#works .view{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150vh;
+    background:rgba(0, 0, 0, 0.85);
+    z-index: 1000;
+    /* display: none; */
+}
 
-    #works .designs .design .text h3{
-        font-size: 30px;
-        font-weight: 500;
-        line-height: 1.2;
-        color: white;
-        margin-bottom: 25px;
-    }
+#works .view img{
+    width: 300px;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
 
-    #works .designs .design .text a{
-        background:none;
-        border: 2px solid white;
-        border-radius: 4px;
-        color: white;
-        padding: 8px 15px;
-        margin-top: 15px;
-        transition: .2s;
-        font-size: 12px;
-    }
+#works .view button{
+    position: absolute;
+    top: 15%;
+    right: 3%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 50px;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
     
 }
 
@@ -812,7 +838,7 @@ header .content{
 
     #service{
         width: 100%;
-        height: 190vh;
+        height: 1250px;
         background: #26272c;
         padding: 10% 0;
     }
@@ -1071,14 +1097,12 @@ textarea {
 
 .Project{
     width: 100%;
-    height: 60vh;
-    background-color:#26272c;
-    margin: auto;
+    height: 100vh;
 }
 
 .Project .conteiner{
     width: 79%;
-    height: 49vh;
+    height: 50vh;
     margin: auto;
     display: flex;
     align-self: center;
