@@ -133,7 +133,7 @@ function Validation(){
 let redirect = "#home" 
 
 window.onload = function(){
-    window.locaFtion.replace(redirect)
+    window.location.replace(redirect)
 }
 
 // Website Pre-Loader
