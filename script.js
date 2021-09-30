@@ -30,38 +30,53 @@ let close = document.querySelector(".close")
 
 function view(){
     popup.style.display = "block"
-    images.src = "agency_website_design.png"
+    images.src = "Diamond-Teeth-Logo.jpg"
 }
 
 function viewTwo(){
     popup.style.display = "block"
-    images.src = "Diamond-Teeth-Logo.jpg"
+    images.src = "agency_website_design.png"
 }
 
 function viewThree(){
     popup.style.display = "block"
-    images.src = "landing_page.jpg"
+    images.src = "LOGO.png"
 }
 
 function viewfour(){
     popup.style.display = "block"
-    images.src = "w-Logo.jpg"
+    images.src = "landing_page.jpg"
 }
 
 function viewfive(){
     popup.style.display = "block"
-    images.src = "artboard___1.png"
+    images.src = "music.jpg"
 }
 
 function viewsix(){
     popup.style.display = "block"
+    images.src = "artboard___1.png"
+}
+
+function viewseven(){
+    popup.style.display = "block"
     images.src = "CD-Logo.png"
 }
+
+function vieweight(){
+    popup.style.display = "block"
+    images.src = "food-website.png"
+}
+
+function viewnine(){
+    popup.style.display = "block"
+    images.src = "w-Logo.jpg"
+}
+
 
 function closeView(){
     popup.style.display = "none"
 }
-
 
 // Form Validation
 
@@ -118,7 +133,7 @@ function Validation(){
 let redirect = "#home" 
 
 window.onload = function(){
-    window.location.replace(redirect)
+    window.locaFtion.replace(redirect)
 }
 
 // Website Pre-Loader
