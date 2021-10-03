@@ -60,7 +60,7 @@ function viewsix(){
 
 function viewseven(){
     popup.style.display = "block"
-    images.src = "CD-Logo.png"
+    images.src = "Softcent.png"
 }
 
 function vieweight(){
