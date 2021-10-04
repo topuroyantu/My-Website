@@ -45,7 +45,7 @@ function viewThree(){
 
 function viewfour(){
     popup.style.display = "block"
-    images.src = "landing_page.jpg"
+    images.src = "dribbble_post.png"
 }
 
 function viewfive(){
@@ -65,7 +65,7 @@ function viewseven(){
 
 function vieweight(){
     popup.style.display = "block"
-    images.src = "food-website.png"
+    images.src = "landing_page.jpg"
 }
 
 function viewnine(){
