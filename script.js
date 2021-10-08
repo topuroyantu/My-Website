@@ -55,7 +55,7 @@ function viewfive(){
 
 function viewsix(){
     popup.style.display = "block"
-    images.src = "artboard___1.png"
+    images.src = "dribbble___1.png"
 }
 
 function viewseven(){
